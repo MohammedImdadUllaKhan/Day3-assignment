@@ -1,0 +1,17 @@
+
+function number_checker(value){
+  
+  let num=value%2;
+  
+  if (num==0){
+    console.log(`The number is 
+    ${number} and is even`)
+  }
+  else{
+    console.log(`The number is ${number} and is odd`)
+  }
+ 
+  
+}
+let number=Number(prompt("enter the number : "))
+console.log(number_checker(number))
