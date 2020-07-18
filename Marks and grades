@@ -1,0 +1,21 @@
+
+function marks (Marks) {
+  
+  if (Marks>=0 && Marks<=12 ){
+    console.log(`Your marks are ${Marks} out of 20. Your grade is C+ `)
+  }
+  
+  if (Marks>=12 && Marks<= 18){
+    console.log(`Your marks are ${Marks} out of 20. Your grade is B+ `)
+  }
+  
+  if (Marks>=20){
+    console.log(`Your marks are ${Marks} out of 20. Your grade is A+ `)
+  }
+  
+}
+
+
+let value= Number(prompt("Enter the marks you have obtained : "))
+
+marks(value)
