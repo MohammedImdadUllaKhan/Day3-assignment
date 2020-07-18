@@ -1,0 +1,14 @@
+
+function operating_system(OS,Version){
+  console.log(`your operating system is ${OS} and it is currently running on version ${Version}...`)
+}
+
+
+let windows =String(prompt("What is your Operating System : "));
+
+let eight= Number(prompt("What's the version of your Operating system : "));
+
+operating_system(windows, eight);
+
+
+
